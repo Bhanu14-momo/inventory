@@ -1,9 +1,12 @@
 {
+  "homepage": "https://inventory.github.io/inventory-dashboard/",
   "name": "inventory-dashboard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+     "predeploy":"npm run dev",
+     "deploy":"gh-pages/d",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
